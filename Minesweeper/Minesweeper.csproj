@@ -1,0 +1,102 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+    <ApplicationIcon>Sprites\logo.ico</ApplicationIcon>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Sprites\AniDarkTileFlag.png" />
+    <None Remove="Sprites\AniTileFlag.png" />
+    <None Remove="Sprites\DarkTile1.png" />
+    <None Remove="Sprites\DarkTile2.png" />
+    <None Remove="Sprites\DarkTile3.png" />
+    <None Remove="Sprites\DarkTile4.png" />
+    <None Remove="Sprites\DarkTile5.png" />
+    <None Remove="Sprites\DarkTile6.png" />
+    <None Remove="Sprites\DarkTile7.png" />
+    <None Remove="Sprites\DarkTile8.png" />
+    <None Remove="Sprites\DarkTileEmpty.png" />
+    <None Remove="Sprites\DarkTileFlag.png" />
+    <None Remove="Sprites\DarkTileMine.png" />
+    <None Remove="Sprites\DarkTileMineFlagged.png" />
+    <None Remove="Sprites\DarkTileUnknown.png" />
+    <None Remove="Sprites\DTileFlag.png" />
+    <None Remove="Sprites\logo.ico" />
+    <None Remove="Sprites\logo2.ico" />
+    <None Remove="Sprites\Tile1.png" />
+    <None Remove="Sprites\Tile2.png" />
+    <None Remove="Sprites\Tile3.png" />
+    <None Remove="Sprites\Tile4.png" />
+    <None Remove="Sprites\Tile5.png" />
+    <None Remove="Sprites\Tile6.png" />
+    <None Remove="Sprites\Tile7.png" />
+    <None Remove="Sprites\Tile8.png" />
+    <None Remove="Sprites\TileEmpty.png" />
+    <None Remove="Sprites\TileExploded.png" />
+    <None Remove="Sprites\TileFlag.png" />
+    <None Remove="Sprites\TileMine.png" />
+    <None Remove="Sprites\TileMineFlagged.png" />
+    <None Remove="Sprites\TileUnknown.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Sprites\AniDarkTileFlag.png" />
+    <Resource Include="Sprites\AniTileFlag.png" />
+    <Resource Include="Sprites\DarkTile1.png" />
+    <Resource Include="Sprites\DarkTile2.png" />
+    <Resource Include="Sprites\DarkTile3.png" />
+    <Resource Include="Sprites\DarkTile4.png" />
+    <Resource Include="Sprites\DarkTile5.png" />
+    <Resource Include="Sprites\DarkTile6.png" />
+    <Resource Include="Sprites\DarkTile7.png" />
+    <Resource Include="Sprites\DarkTile8.png" />
+    <Resource Include="Sprites\DarkTileEmpty.png" />
+    <Resource Include="Sprites\DarkTileFlag.png" />
+    <Resource Include="Sprites\DarkTileMine.png" />
+    <Resource Include="Sprites\DarkTileMineFlagged.png" />
+    <Resource Include="Sprites\DarkTileUnknown.png" />
+    <Resource Include="Sprites\logo2.ico" />
+    <Content Include="Sprites\logo.ico" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Sprites\logo.ico" />
+    <Resource Include="Sprites\Tile8.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Sprites\Tile1.png" />
+    <Resource Include="Sprites\Tile2.png" />
+    <Resource Include="Sprites\Tile3.png" />
+    <Resource Include="Sprites\Tile4.png" />
+    <Resource Include="Sprites\Tile5.png" />
+    <Resource Include="Sprites\Tile6.png" />
+    <Resource Include="Sprites\Tile7.png" />
+    <Resource Include="Sprites\TileEmpty.png" />
+    <Resource Include="Sprites\TileExploded.png" />
+    <Resource Include="Sprites\TileFlag.png" />
+    <Resource Include="Sprites\TileMine.png" />
+    <Resource Include="Sprites\TileMineFlagged.png" />
+    <Resource Include="Sprites\TileUnknown.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="Properties\Settings.Designer.cs">
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="Properties\Settings.settings">
+      <Generator>PublicSettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+
+</Project>
