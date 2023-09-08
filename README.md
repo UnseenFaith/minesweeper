@@ -17,7 +17,7 @@ A remake of the popular video game minesweeper, except in a more modern language
 
 ## Downloading
 The exe comes prepackaged with everything you need to run the program. You can download the latest version here: 
-[Minesweeper](https://github.com/UnseenFaith/PNGBuddy/releases/download/1.0.0/Minesweeper.exe)
+[Minesweeper](https://github.com/UnseenFaith/minesweeper/releases/download/1.0.0/Minesweeper.exe)
 
 May add portable downloads in the future, but for now this should suffice.
 
